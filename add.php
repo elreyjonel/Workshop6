@@ -46,7 +46,7 @@ echo $e->getMessage();
 <!DOCTYPE html>
 <html>
 <head>
-<title>NinyohAutos Database</title>
+<title>Jonel Autos Database</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <style type="text/css">
@@ -59,7 +59,7 @@ echo $e->getMessage();
 </style>
 <body>
 <div class="container">
-<h1>Tracking Autos for NINYOH </h1>
+<h1>Tracking Autos for Jonel </h1>
 <?php
 if ( isset($_REQUEST['name']) ) {
     echo "<p>Welcome: ";
